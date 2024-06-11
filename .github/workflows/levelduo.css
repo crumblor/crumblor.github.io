@@ -1,0 +1,134 @@
+#line-top {
+    width: 93%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 200px; /* Adjusted position */
+    left: 67px; /* Adjusted position */
+}
+
+#line-left {
+    width: 50px; /* Adjusted width */
+    height: 620px; /* Adjusted height */
+    background-color: red;
+    position: absolute;
+    top: 200px; /* Adjusted position */
+    left: 67px; /* Adjusted position */
+}
+
+#line-bottom {
+    width: 93%;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 805px; /* Adjusted position */
+    left: 67px; /* Adjusted position */
+}
+
+#line-right {
+    width: 50px; /* Adjusted width */
+    height: 620px; /* Adjusted height */
+    background-color: red;
+    position: absolute;
+    top: 200px; /* Adjusted position */
+    left: 1764px; /* Adjusted position */
+}
+
+#line-mid {
+    width: 50px;
+    height: 450px;
+    background-color: red;
+    position: absolute;
+    top: 205px; /* Adjusted position */
+    left: 567px; /* Adjusted position */
+}
+
+#line-mid1 {
+    width: 50px;
+    height: 450px;
+    background-color: red;
+    position: absolute;
+    top: 400px; /* Adjusted position */
+    left: 1267px; /* Adjusted position */
+}
+
+#line-mid2 {
+    width: 50px;
+    height: 270px;
+    background-color: red;
+    position: absolute;
+    top: 560px; /* Adjusted position */
+    left: 920px; /* Adjusted position */
+}
+
+#line-mid3 {
+    width: 50px;
+    height: 210px;
+    background-color: red;
+    position: absolute;
+    top: 210px; /* Adjusted position */
+    left: 920px; /* Adjusted position */
+}
+
+.portal {
+    width: 50px;
+    height: 200px;
+    background-color: #00ff00; /* Green for the portal */
+    position: absolute;
+    top: 420px; /* Adjusted position */
+    left: 1700px; /* Adjusted position */
+}
+
+.portal-hid {
+    width: 50px;
+    height: 200px;
+    background-color: #00ff00; /* Green for the portal */
+    position: absolute;
+    display: none;
+    top: 420px; /* Adjusted position */
+    left: 1800px; /* Adjusted position */
+}
+
+.pressure-plate {
+    width: 50px;
+    height: 10px;
+    background-color: #00d9ff; /* Red for the pressure plate */
+    position: absolute;
+    top: 750px; /* Set initial position */
+    left: 1100px; /* Set initial position */
+}
+
+#portalDoor {
+    top: 250px; /* Adjusted position */
+    left: 1600px; /* Adjusted position */
+}
+
+.draggable-block {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    top: 500px; /* Adjusted position */
+    left: 200px; /* Adjusted position */
+    cursor: grab;
+}
+
+.draggable-block:active {
+    cursor: grabbing;
+}
+
+.door {
+    width: 50px;
+    height: 555px;
+    background-color: rgb(234, 0, 255);
+    position: absolute;
+    top: 250px; /* Adjusted position */
+    left: 300px; /* Adjusted position */
+}
+
+.door-portal {
+    width: 50px;
+    height: 555px;
+    background-color: rgb(234, 0, 255);
+    position: absolute;
+}
