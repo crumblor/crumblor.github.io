@@ -1,0 +1,8 @@
+#player {
+    width: 75px;
+    height: 75px;
+    background-color: blue;
+    position: absolute;
+    top: 450px; /* Adjusted position */
+    left: 650px; /* Adjusted position */
+}
